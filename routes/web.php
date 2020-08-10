@@ -22,7 +22,7 @@ Route::post('/books', 'BookController@store');
 Route::patch('/books/{book}', 'BookController@update');
 Route::delete('/books/{book}', 'BookController@destroy');
 
-Route::post('/author', 'AuthorsController@store');
+Route::post('/authors', 'AuthorsController@store');
 
 Route::post('/checkout/{book}', 'CheckoutBookController@store');
 Route::post('/checkin/{book}', 'CheckinBookController@store');
